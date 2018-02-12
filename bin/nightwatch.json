@@ -1,0 +1,38 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "",
+  "globals_path" : "",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.8.1.jar",
+    "log_path" : "./logs",
+    "host" : "127.0.0.1",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "https://www.wrike.com/ja/",
+      "launch_workspace" : "https://www.wrike.com/workspace.htm#path=folder&id=212275066&p=212273178&a=1982683&c=list&so=5&sd=1&f=",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "marionette": true
+      }
+    }
+
+  }
+}
