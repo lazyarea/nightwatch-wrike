@@ -19,8 +19,7 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "https://www.wrike.com/ja/",
-      "launch_workspace" : "https://www.wrike.com/workspace.htm#path=folder&id=212275066&p=212273178&a=1982683&c=list&so=5&sd=1&f=",
+      "launch_url" : "https://www.google.com/ja/",
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
